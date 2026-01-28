@@ -1,6 +1,7 @@
 export default function Arrow(props) {
   return (
     <svg
+      style={{ zIndex: 0 }}
       className={`${props.class}`}
       width="13"
       height="13"

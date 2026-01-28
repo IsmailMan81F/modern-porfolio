@@ -4,6 +4,7 @@ import Hero from "./components/hero/Hero";
 import Backgroundgrid from "./components/background/Backgroundgrid";
 import RightSpotlight from "./components/spotlight/LeftSpotlight";
 import LeftSpotlight from "./components/spotlight/RightSpotlight";
+import About from "./components/about/About";
 function App() {
   return (
     <div className="app">
@@ -12,6 +13,7 @@ function App() {
       <Backgroundgrid />
       <RightSpotlight />
       <LeftSpotlight />
+      <About/>
     </div>
   );
 }

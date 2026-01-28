@@ -1,0 +1,78 @@
+.title {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 700;
+  font-family: var(--inter);
+  color: white;
+  letter-spacing: -0.16px;
+  width: 24.5rem;
+  position: absolute;
+  top: 22.93rem;
+  left: 2.5rem;
+  z-index: 1;
+}
+
+.el1 {
+  position: relative;
+  border-radius: 1.43rem;
+  background-image: url("../../assets/earth.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43rem;
+  height: 34rem;
+  position: relative;
+}
+
+.cursor1 {
+  position: absolute;
+  top: 3.6rem;
+  left: 3rem;
+  z-index: 1;
+}
+
+.cursor2 {
+  position: absolute;
+  top: 21.4rem;
+  left: 31.6rem;
+  z-index: 1;
+}
+
+.el1::after {
+  content: "";
+  width: 43rem;
+  height: 34rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    0deg,
+    #04071d 0%,
+    #04071d 6%,
+    #0c0e2300 26%,
+    #0c0e2300 100%
+  );
+  border-radius: 1.43rem;
+}
+
+.container1 {
+  border-radius: 1.43rem;
+  width: 43rem;
+  height: 34rem;
+  padding: 1px;
+  background: linear-gradient(0deg, #36374980, #36374980);
+}
+
+.el2 {
+  background-image: url("../../assets/balls.svg");
+  width: 32.56rem;
+  height: 15.93rem;
+  background-repeat: no-repeat;
+}
+
+
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
