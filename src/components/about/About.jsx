@@ -2,6 +2,19 @@ import "../../index.css";
 import "./About.css";
 
 export default function About() {
+  const stack1 = ["ReactJS", "Express", "Typescript", "NextJS"];
+  const stack2 = ["VueJS", "NestJS", "GraphQL", "MongoDB"];
+  const skills1 = stack1.map((tech, index) => (
+    <div className="card" id={index}>
+      {tech}
+    </div>
+  ));
+  const skills2 = stack2.map((tech, index) => (
+    <div className="card" id={index}>
+      {tech}
+    </div>
+  ));
+
   return (
     <section className="about">
       <div className="container1">
@@ -59,7 +72,20 @@ export default function About() {
         </div>
       </div>
       <div className="container3">
-        <div className="el3"></div>
+        <div className="el3">
+          <div className="titles">
+            <h3 className="subtitle">I constantly try to improve</h3>
+            <h2 className="title">My tech stack</h2>
+            <div className="scrolling-up cards">
+              {skills1}
+              {skills1}
+            </div>
+            <div className="scrolling-down cards">
+              {skills2}
+              {skills2}
+            </div>
+          </div>
+        </div>
       </div>
       <div className="container4">
         <div className="el4"></div>

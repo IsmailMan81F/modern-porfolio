@@ -118,12 +118,109 @@
 .container2 {
   width: 32.5rem;
   height: 15.93rem;
-  padding: 1px;
-  background: linear-gradient(0deg, #36374980, #36374980);
+  border: 1px solid #36374980;
+  border-radius: 1.43rem;
+  display: none;
+}
+
+.container3 {
+  width: 32.5rem;
+  height: 15.93rem;
+  border: 1px solid #36374980;
   border-radius: 1.43rem;
 }
-.container3 {
+
+.el3 {
+  width: 32.56rem;
+  height: 15.93rem;
+  position: relative;
+  width: 32.5rem;
+  height: 15.93rem;
+  border-radius: 1.43rem;
+  overflow: hidden;
+  background: linear-gradient(130deg, #04071d, #0c0e23);
 }
+
+.el3 .title {
+  font-size: 2rem;
+  font-family: var(--inter);
+  font-weight: 700;
+  letter-spacing: -0.16px;
+  line-height: 1.2;
+  color: white;
+}
+
+.el3 .subtitle {
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: var(--inter);
+  color: #c1c2d3;
+  line-height: 1.2;
+}
+
+.el3 .titles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 1.25rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.76rem;
+  z-index: -1;
+}
+
+.scrolling-up {
+  animation: scrolling-up 10s infinite linear;
+  position: absolute;
+  top: 0;
+  left: 12rem;
+}
+
+.scrolling-down {
+  position: absolute;
+  top: 0;
+  left: 21.5rem;
+  animation: scrolling-down 10s infinite linear;
+}
+
+.card {
+  border-radius: 6.76px;
+  width: 8.75rem;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 13.94px;
+  font-family: var(--inter);
+  font-weight: 600;
+  line-height: 18.6;
+  background-color: #10132e;
+}
+
+@keyframes scrolling-up {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+@keyframes scrolling-down {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(50%);
+  }
+}
+
 .container4 {
 }
 .container5 {
