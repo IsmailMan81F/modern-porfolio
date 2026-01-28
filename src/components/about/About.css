@@ -1,4 +1,4 @@
-.title {
+.el1 .title {
   font-size: 2rem;
   line-height: 1.2;
   font-weight: 700;
@@ -20,7 +20,6 @@
   background-repeat: no-repeat;
   width: 43rem;
   height: 34rem;
-  position: relative;
 }
 
 .cursor1 {
@@ -64,15 +63,70 @@
 
 .el2 {
   background-image: url("../../assets/balls.svg");
+  background-position: bottom;
   width: 32.56rem;
   height: 15.93rem;
   background-repeat: no-repeat;
+  position: relative;
+  width: 32.5rem;
+  height: 15.93rem;
+  border-radius: 1.43rem;
 }
 
+.el2::before {
+  content: "";
+  background-image: url("../../assets/fade.svg");
+  background-position: bottom;
+  width: 32.56rem;
+  height: 15.93rem;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32.5rem;
+  height: 15.93rem;
+  opacity: 0.2;
+  filter: brightness(400%);
+  z-index: -1;
+  border-radius: 1.43rem;
+}
 
+.el2 .title {
+  font-size: 1.875rem;
+  line-height: 1.2;
+  font-weight: 700;
+  font-family: var(--inter);
+  color: white;
+  letter-spacing: -0.16px;
+  width: 25.68rem;
+  position: absolute;
+  top: 2.5rem;
+  left: 2.18rem;
+  z-index: 1;
+}
 
 .about {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+  display: grid;
+  grid-template-columns: repeat(32, 100px);
+  grid-template-rows: repeat(12, 1fr);
+}
+
+.container1 {
+  display: none;
+}
+
+.container2 {
+  width: 32.5rem;
+  height: 15.93rem;
+  padding: 1px;
+  background: linear-gradient(0deg, #36374980, #36374980);
+  border-radius: 1.43rem;
+}
+.container3 {
+}
+.container4 {
+}
+.container5 {
+}
+.container6 {
 }
