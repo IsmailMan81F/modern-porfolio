@@ -1,5 +1,6 @@
 import "../../index.css";
 import "./About.css";
+import CopyIcon from "./CopyIcon";
 
 export default function About() {
   const stack1 = ["ReactJS", "Express", "Typescript", "NextJS"];
@@ -16,82 +17,69 @@ export default function About() {
   ));
 
   return (
-    <section className="about">
-      <div className="container1">
-        <div className="el1">
-          <div className="cursor1">
-            <svg
-              width="151"
-              height="60"
-              viewBox="0 0 151 60"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M139.705 6.92725L134.123 31.4715L126.233 21.6113L109.931 19.0652L139.705 6.92725Z"
-                fill="#D1ACFF"
-              />
-              <path
-                d="M114.512 29.8352H15.3822C6.88612 29.8352 2.28882e-05 36.4278 2.28882e-05 44.5618C2.28882e-05 52.6957 6.88612 59.2883 15.3822 59.2883H99.1299C107.626 59.2883 114.512 52.6957 114.512 44.5618V29.8352Z"
-                fill="#D1ACFF"
-              />
-              <path
-                d="M121.313 3.72727H122.644L124.96 9.38068H125.045L127.36 3.72727H128.692V11H127.648V5.73722H127.58L125.436 10.9893H124.569L122.424 5.73366H122.357V11H121.313V3.72727ZM132.073 11.1101C131.536 11.1101 131.073 10.9953 130.684 10.7656C130.299 10.5336 130 10.2081 129.79 9.78906C129.581 9.36766 129.477 8.87405 129.477 8.30824C129.477 7.74953 129.581 7.2571 129.79 6.83097C130 6.40483 130.294 6.07221 130.67 5.8331C131.049 5.59399 131.492 5.47443 131.998 5.47443C132.306 5.47443 132.604 5.52533 132.893 5.62713C133.182 5.72893 133.441 5.88873 133.671 6.10653C133.901 6.32434 134.082 6.60724 134.214 6.95526C134.347 7.3009 134.413 7.72112 134.413 8.21591V8.59233H130.077V7.79688H133.373C133.373 7.51752 133.316 7.27012 133.202 7.05469C133.089 6.83688 132.929 6.66525 132.723 6.53977C132.519 6.4143 132.28 6.35156 132.006 6.35156C131.707 6.35156 131.447 6.42495 131.224 6.57173C131.004 6.71615 130.834 6.90554 130.713 7.13991C130.595 7.37192 130.535 7.62405 130.535 7.89631V8.51776C130.535 8.88234 130.599 9.19247 130.727 9.44815C130.857 9.70384 131.038 9.89915 131.27 10.0341C131.502 10.1667 131.773 10.233 132.084 10.233C132.285 10.233 132.468 10.2045 132.634 10.1477C132.8 10.0885 132.943 10.0009 133.064 9.88494C133.184 9.76894 133.277 9.62571 133.341 9.45526L134.346 9.63636C134.265 9.93229 134.121 10.1915 133.912 10.4141C133.706 10.6342 133.447 10.8059 133.135 10.929C132.825 11.0497 132.471 11.1101 132.073 11.1101Z"
-                fill="#0C0E23"
-              />
-            </svg>
+    <section className="porfolio">
+      <div className="up-box">
+        <div className="container1">
+          <div className="el1">
+            <h2 className="title">
+              I prioritize client collaboration, fostering open
+              communication{" "}
+            </h2>
           </div>
-          <div className="cursor2">
-            <svg
-              width="140"
-              height="49"
-              viewBox="0 0 140 49"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M0 0L3.28594 22.9833L7.93103 13.7502L17.5286 11.366L0 0Z"
-                fill="#F6F056"
-              />
-              <path
-                d="M14.2978 21.8999H123.055C132.376 21.8999 139.931 27.9434 139.931 35.3999C139.931 42.8564 132.376 48.8999 123.055 48.8999H31.1739C21.8527 48.8999 14.2978 42.8564 14.2978 35.3999V21.8999Z"
-                fill="#F6F056"
-              />
-            </svg>
+        </div>
+        <div className="up-right-box">
+          <div className="container2">
+            <div className="el2">
+              <h2 className="title">
+                I’m very flexible with time zone communications
+              </h2>
+            </div>
           </div>
-          <h2 className="title">
-            I prioritize client collaboration, fostering open communication{" "}
-          </h2>
+          <div className="container3">
+            <div className="el3">
+              <div className="titles">
+                <h3 className="subtitle">I constantly try to improve</h3>
+                <h2 className="title">My tech stack</h2>
+              </div>
+              <div className="skills1">{skills1}</div>
+              <div className="skills12">{skills1}</div>
+              <div className="skills2">{skills2}</div>
+              <div className="skills22">{skills2}</div>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="container2">
-        <div className="el2">
-          <h2 className="title">
-            I’m very flexible with time zone communications
-          </h2>
-        </div>
-      </div>
-      <div className="container3">
-        <div className="el3">
-          <div className="titles">
-            <h3 className="subtitle">I constantly try to improve</h3>
-            <h2 className="title">My tech stack</h2>
+      <div className="down-box">
+        <div className="down-left-box">
+          <div className="container4">
+            <div className="el4">
+              <h2 className="title">
+                Tech enthusiast with a passion for development.
+              </h2>
+            </div>
           </div>
-          <div className="skills1">{skills1}</div>
-          <div className="skills12">{skills1}</div>
-          <div className="skills2">{skills2}</div>
-          <div className="skills22">{skills2}</div>
-
+          <div className="container5">
+            <div className="el5">
+              <h2 className="title">
+                Do you want to start a project together?
+              </h2>
+              <button className="button">
+                <CopyIcon />
+                <span>Copy my email address</span>
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="container4">
-        <div className="el4"></div>
-      </div>
-      <div className="container5">
-        <div className="el5"></div>
-      </div>
-      <div className="container6">
-        <div className="el6"></div>
+        <div className="container6">
+          <div className="el6">
+            <div className="titles">
+              <h2 className="subtitle">The Inside Scoop</h2>
+              <h2 className="title">
+                Currently building a JS Animation library
+              </h2>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

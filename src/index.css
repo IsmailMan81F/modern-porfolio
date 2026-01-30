@@ -1,8 +1,10 @@
 :root {
   --inter: "Inter", sans-serif;
   --poppins: "Poppins", sans-serif;
+  
 }
 
 a {
   text-decoration: none;
 }
+

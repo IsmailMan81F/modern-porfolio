@@ -1,0 +1,17 @@
+.right-spotlight,
+.left-spotlight {
+  background-color: white;
+  animation: fading 3s ease-in-out infinite;
+}
+
+@keyframes fading {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
