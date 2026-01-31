@@ -1,3 +1,28 @@
-.projects {
+.projects-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4375rem;
+  width: max-content;
+}
+
+.projects-title {
+  font-family: var(--inter);
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -2px;
+  text-align: center;
+  color: white;
+}
+
+.projects-title span {
+  color: #cbacf9;
+}
+
+.projects-section {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 10.125rem;
 }

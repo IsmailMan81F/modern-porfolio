@@ -1,6 +1,6 @@
 import Project from "./project";
 import { projects } from "./projects";
-import './projects.css'
+import "./projects.css";
 
 export default function Projects(params) {
   const cards = projects.map((project, index) => (
@@ -13,5 +13,12 @@ export default function Projects(params) {
     />
   ));
 
-  return <div className="projects">{cards}</div>;
+  return (
+    <section className="projects-section">
+      <h2 className="projects-title">
+        A small selection of <span>recent projects</span>
+      </h2>
+      <div className="projects-cards">{cards}</div>
+    </section>
+  );
 }

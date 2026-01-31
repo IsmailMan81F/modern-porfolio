@@ -42,6 +42,7 @@
   );
   display: inline-block;
   border-radius: 14px;
+  cursor: pointer;
 }
 
 .hero-div button {

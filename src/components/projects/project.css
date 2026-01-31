@@ -59,9 +59,8 @@
 }
 
 .project-live-link span:hover {
-    color: #a365ff;
+  color: #a365ff;
 }
-
 
 .project-live-link span {
   font-family: var(--inter);
@@ -84,4 +83,9 @@
   height: 3.125rem;
   border-radius: 50%;
   margin-right: -0.25rem;
+  transition: all 0.3s;
+}
+
+.project-tech-icon:hover {
+  filter: brightness(200%);
 }

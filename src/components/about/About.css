@@ -305,6 +305,20 @@
 }
 
 .container5 {
+  position: relative;
+  width: 21.9rem;
+  height: 11.25rem;
+  border-radius: 1.43rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container5::before {
+  content: "";
+  position: absolute;
   width: 21.9rem;
   height: 11.25rem;
   border-radius: 1.43rem;
@@ -313,10 +327,22 @@
   background-image: url("../../assets/fadeCard.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  z-index: -2;
+  animation: color-fading 6s infinite ease-in-out;
 }
+
+@keyframes color-fading {
+  0% {
+    filter: brightness(80%);
+  }
+  50% {
+    filter: brightness(300%);
+  }
+  100% {
+    filter: brightness(80%);
+  }
+}
+
 
 .el5 {
   display: flex;

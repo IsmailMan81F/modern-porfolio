@@ -19,7 +19,7 @@ export default function Hero() {
             onMouseLeave={() => setHover(false)}
           >
             <span>See my work </span>
-            <Arrow class={hover ? "rotate-right" : "rotate-left"} />
+            <Arrow class={hover ? "rotate-right" : "rotate-left"} color="white"/>
           </button>
         </div>
       </div>
