@@ -1,13 +1,19 @@
 import "./testimonials.css";
 import FeedbackCard from "./FeedbackCard";
-import { testimonials } from "./Dataset/Dataset";
+import { testimonials, icons } from "./Dataset/Dataset";
 
 export default function Testimonials(params) {
   const Testimonials = testimonials.map((feedback, index) => (
     <FeedbackCard key={index} info={feedback} />
   ));
 
-  const logos = icons.
+  const logos = icons.map((logo, index) => (
+    <div
+      className="logo"
+      key={index}
+      style={{ backgroundImage: `url(${logo})` }}
+    ></div>
+  ));
 
   return (
     <section className="testimonials-section">
@@ -16,9 +22,11 @@ export default function Testimonials(params) {
       </h2>
       <div className="testimonials-container">
         <div className="testimonials-scrolling">{Testimonials}</div>
-        <div className="testimonials-scrolling" aria-hidden>{Testimonials}</div>
+        <div className="testimonials-scrolling" aria-hidden>
+          {Testimonials}
+        </div>
       </div>
-      <div className="logos">{logos}</div>
+      <div className="logos"></div>
     </section>
   );
 }

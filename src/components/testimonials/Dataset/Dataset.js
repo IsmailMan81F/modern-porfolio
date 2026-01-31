@@ -1,4 +1,9 @@
 import Michael from "./Michael.png";
+import appwriter from '../logos/appwriter.svg'
+import cloudinary from "../logos/cloudinary.svg";
+import docker from "../logos/docker.svg";
+import hostinger from "../logos/hostinger.svg";
+import stream from "../logos/stream.svg";
 
 export const testimonials = [
   {
@@ -23,3 +28,5 @@ export const testimonials = [
     picture: Michael,
   },
 ];
+
+export const icons = [cloudinary, appwriter, hostinger, stream, docker];
