@@ -5,6 +5,7 @@ import Backgroundgrid from "./components/background/Backgroundgrid";
 import RightSpotlight from "./components/spotlight/LeftSpotlight";
 import LeftSpotlight from "./components/spotlight/RightSpotlight";
 import About from "./components/about/About";
+import Testimonials from "./components/testimonials/Testimonials";
 import Projects from "./components/projects/Projects";
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <RightSpotlight />
       <LeftSpotlight />
       <About/>
-      <Projects/> 
+      <Projects/>
+      <Testimonials/>
     </div>
   );
 }

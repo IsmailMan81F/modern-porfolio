@@ -1,0 +1,58 @@
+.feedback-card {
+  width: 56.875rem;
+  height: 18.75rem;
+  border-radius: 1.43rem;
+  background-image: url("./assets/cardContainer.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3.125rem;
+}
+
+.feedback-text {
+  max-width: 50.625rem;
+  font-family: var(--inter);
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: white;
+  line-height: 1.5;
+  letter-spacing: -0.48px;
+}
+
+.feedback-owner-picture {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+}
+
+.feedback-owner-name {
+  font-family: var(--inter);
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.48px;
+  color: white;
+}
+
+.feedback-owner-job {
+  font-family: var(--inter);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.48px;
+  color: #c1c2d3;
+}
+
+.feedback-owner {
+  display: flex;
+  gap: 0.625rem;
+  align-items: center;
+}
+
+.feedback-owner-profile {
+  display: flex;
+  flex-direction: column;
+}

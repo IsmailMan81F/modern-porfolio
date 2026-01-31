@@ -41,10 +41,18 @@ export default function About() {
                 <h3 className="subtitle">I constantly try to improve</h3>
                 <h2 className="title">My tech stack</h2>
               </div>
-              <div className="skills1">{skills1}</div>
-              <div className="skills12">{skills1}</div>
-              <div className="skills2">{skills2}</div>
-              <div className="skills22">{skills2}</div>
+              <div className="skills1-container">
+                <div className="scrolling-up">{skills1}</div>
+                <div className="scrolling-up" aria-hidden>
+                  {skills1}
+                </div>
+              </div>
+              <div className="skills2-container">
+                <div className="scrolling-down">{skills2}</div>
+                <div className="scrolling-down" aria-hidden>
+                  {skills2}
+                </div>
+              </div>
             </div>
           </div>
         </div>

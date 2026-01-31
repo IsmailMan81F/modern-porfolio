@@ -1,8 +1,8 @@
-import "./project.css";
+import "./ProjectCard.css";
 import Arrow from "../hero/Arrow";
 import { useState } from "react";
 
-export default function Project(props) {
+export default function ProjectCard(props) {
   const [hover, setHover] = useState(false);
 
   const icons = props.tech.map((tech, index) => (

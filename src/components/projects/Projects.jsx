@@ -1,10 +1,10 @@
-import Project from "./project";
-import { projects } from "./projects";
-import "./projects.css";
+import ProjectCard from "./ProjectCard";
+import { projects } from "./Dataset";
+import "./Projects.css";
 
 export default function Projects(params) {
   const cards = projects.map((project, index) => (
-    <Project
+    <ProjectCard
       key={index}
       title={project.title}
       description={project.description}
