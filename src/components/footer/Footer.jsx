@@ -1,14 +1,12 @@
 import "./Footer.css";
 import { links } from "./data";
 
+
 export default function Footer(params) {
   const icons = links.map((icon, index) => (
-    <a
-      key={index}
-      href={icon.link}
-      className="footer-link"
-      style={{ backgroundImage: `url(${icon.icon})` }}
-    ></a>
+    <a key={index} href={icon.link} className="footer-link">
+      <img src={icon.icon} alt="icon" />
+    </a>
   ));
 
   return (
