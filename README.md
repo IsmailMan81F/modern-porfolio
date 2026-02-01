@@ -10,7 +10,8 @@ A stunning, professional portfolio website built with React and pure CSS, showca
   
   **A stunning, professional portfolio website showcasing cutting-edge web development skills with smooth animations, responsive design, and modern UI/UX practices.**
 
-  [Live Demo](https://modern-porfolio.vercel.app) | [Report Bug](#) | [Request Feature](#)
+  [Live Demo](https://modern-porfolio.vercel.app) | [Report Bug](https://github.com/ismailman81f/modern-porfolio/issues/new?assignees=&labels=bug) | [Request Feature](https://github.com/ismailman81f/modern-porfolio/issues/new?assignees=&labels=enhancement
+)
 
 </div>
 
