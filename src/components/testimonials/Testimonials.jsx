@@ -22,7 +22,7 @@ export default function Testimonials(params) {
       </h2>
       <div className="testimonials-container">
         <div className="testimonials-scrolling">{Testimonials}</div>
-        <div className="testimonials-scrolling" aria-hidden>
+        <div className="testimonials-scrolling2" aria-hidden>
           {Testimonials}
         </div>
       </div>

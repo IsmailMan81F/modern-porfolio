@@ -21,7 +21,7 @@ export default function Hero() {
           >
             <span>See my work </span>
             <Arrow
-              class={hover ? "rotate-right" : "rotate-left"}
+              classN={hover ? "rotate-right" : "rotate-left"}
               color="white"
             />
           </a>

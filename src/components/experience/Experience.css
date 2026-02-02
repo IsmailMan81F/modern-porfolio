@@ -25,3 +25,22 @@
   align-items: center;
   gap: 4rem;
 }
+
+@media (max-width: 938px) {
+  .experience-header {
+    font-size: 36px;
+    letter-spacing: -1px;
+  }
+
+  .experience-cards {
+    gap: 1.2rem;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+
+  .experience-section {
+    width: var(--mobile-width);
+    margin: auto;
+    margin-top: 89px;
+  }
+}

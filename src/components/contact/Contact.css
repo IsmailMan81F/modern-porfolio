@@ -73,3 +73,34 @@
   gap: 1.875rem;
   margin-top: 13.25rem;
 }
+
+@media (max-width: 938px) {
+  .contact-title {
+    font-size: 36px;
+    width: var(--mobile-width);
+    letter-spacing: -1px;
+  }
+
+
+  .button {
+    border-radius: 4px;
+    width: var(--mobile-width);
+  }
+
+  .button a {
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+
+  .contact-description {
+    text-align: center;
+    font-size: 1rem;
+    width: var(--mobile-width);
+
+  }
+
+  .contact-section {
+    margin-top: 146px;
+  }
+}

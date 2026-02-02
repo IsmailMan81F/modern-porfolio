@@ -2,6 +2,7 @@
 .left-spotlight {
   background-color: white;
   animation: fading 3s ease-in-out infinite;
+  pointer-events: none;
 }
 
 @keyframes fading {

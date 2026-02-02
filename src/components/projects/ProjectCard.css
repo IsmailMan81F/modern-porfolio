@@ -89,3 +89,55 @@
 .project-tech-icon:hover {
   filter: brightness(200%);
 }
+
+@media (max-width: 938px) {
+  .project-card {
+    width: 100%;
+    padding: 20px 14px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    height: 100%;
+  }
+
+  .project-view {
+    width: 100%;
+    aspect-ratio: 370/ 218;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .project-view img {
+    width: 80%;
+  }
+
+  .project-title {
+    font-size: 5vw;
+    margin-top: 15px;
+  }
+
+  .project-description {
+    font-size: 4vw;
+    margin-top: 10px;
+  }
+  .project-live-link {
+    gap: 7px;
+  }
+
+  .project-live-link span:hover {
+    color: #a365ff;
+  }
+
+  .project-live-link span {
+    font-size: 14px;
+  }
+
+  .project-metadata {
+    margin-top: 13px;
+  }
+
+  .project-tech-icon {
+    width: 34px;
+    height: 34px;
+  }
+}

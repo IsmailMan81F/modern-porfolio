@@ -21,7 +21,7 @@ export default function Contact(params) {
           target="_blank"
         >
           <span>Contact Me Now</span>
-          <Arrow class={hover ? "rotate-right" : "rotate-left"} color="white" />
+          <Arrow classN={hover ? "rotate-right" : "rotate-left"} color="white" />
         </a>
       </div>
     </div>

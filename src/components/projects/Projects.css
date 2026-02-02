@@ -27,3 +27,27 @@
   margin-top: 10.125rem;
   scroll-margin-top: 8.525rem;
 }
+
+@media (max-width: 938px) {
+  .projects-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+    width: var(--mobile-width);
+  }
+
+  .projects-title {
+    font-size: 2.25rem;
+    width: var(--mobile-width);
+    letter-spacing: -1px;
+  }
+
+  .projects-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 4.125rem;
+  }
+}

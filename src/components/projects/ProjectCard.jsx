@@ -38,7 +38,7 @@ export default function ProjectCard(props) {
               onMouseLeave={() => setHover(false)}
             >
               <span>Check Live Site</span>
-              <Arrow color={hover ? "#a365ff" : "#cbacf9"} />
+              <Arrow color={hover ? "#a365ff" : "#cbacf9"} width={10} height={10} />
             </a>
           </div>
         </div>

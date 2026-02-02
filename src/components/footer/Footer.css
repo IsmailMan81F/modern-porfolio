@@ -47,3 +47,18 @@
   width: 70%;
   height: 70%;
 }
+
+@media (max-width: 938px) {
+  .footer-copyright {
+    font-size: 14px;
+  }
+
+  .footer-section {
+    flex-direction: column;
+
+    gap: 14px;
+    width: var(--mobile-width);
+    margin-bottom: 45px;
+    margin-top: 89px;
+  }
+}

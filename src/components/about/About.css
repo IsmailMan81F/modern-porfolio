@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 .container1 {
   width: 43rem;
   height: 34rem;
@@ -14,15 +10,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.el6 {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  padding-left: 2.69rem;
-  display: flex;
-  align-items: center;
 }
 
 .el1 .title {
@@ -448,4 +435,206 @@
   justify-content: center;
   align-items: center;
   scroll-margin-top: 8.525rem;
+}
+
+@media (max-width: 938px) {
+  .container1 .el1 .title {
+    font-size: clamp(1rem, 5vw, 2rem);
+    position: initial;
+    max-width: 70%;
+  }
+  .container1 {
+    width: 100%;
+    aspect-ratio: 398 / 312;
+    height: auto;
+
+    padding: 1px;
+    background: linear-gradient(
+      130deg,
+      rgba(105, 113, 162, 0.4),
+      rgba(39, 42, 60, 0.5)
+    );
+    background-image: url("../../assets/earthLaptopBackground.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .el1::after {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    border-radius: 12px;
+  }
+
+  .el1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 5vw;
+    padding-bottom: 10vw;
+    box-sizing: border-box;
+    border-radius: 12px;
+  }
+
+  .up-box {
+    flex-direction: column;
+    width: var(--mobile-width);
+  }
+
+  .up-box .up-right-box {
+    width: 100%;
+  }
+
+  .container2 {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #36374980;
+    border-radius: 1.43rem;
+  }
+
+  .el2 .title {
+    font-size: 5vw;
+    width: 80%;
+    position: initial;
+  }
+
+  .el2::before {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+  }
+
+  .el2 {
+    background-size: contain;
+    width: 100%;
+    aspect-ratio: 398/ 195;
+    height: auto;
+    display: flex;
+    padding-top: 6vw;
+    padding-left: 5vw;
+    box-sizing: border-box;
+    border-radius: 12px;
+  }
+
+  .card {
+    width: 107px;
+    height: 55px;
+    font-size: 10.65px;
+  }
+
+  .skills2-container {
+    right: 128.5px;
+  }
+
+  .skills1-container {
+    right: 14.5px;
+  }
+
+  .container3,
+  .container3::after,
+  .el3 {
+    width: 100%;
+    border-radius: 12px;
+    height: 195px;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  .el3 .title {
+    font-size: 20px;
+  }
+
+  .el3 .subtitle {
+    font-size: 10px;
+  }
+
+  .down-box .down-left-box,
+  .down-box {
+    flex-direction: column;
+  }
+
+  .down-box {
+    width: var(--mobile-width);
+  }
+
+  .container4 {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 12px;
+    padding: 0;
+  }
+
+  .el4 {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 351 / 180;
+    display: flex;
+    padding-left: 6vw;
+    padding-top: 5vw;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-size: cover;
+  }
+
+  .el4 .title {
+    position: initial;
+    font-size: 5vw;
+  }
+
+  .container5 {
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .container5::before {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 351 / 180;
+    border-radius: 12px;
+  }
+
+  .el6 .subtitle {
+    font-size: 2vw;
+    color: #e4ecff;
+    line-height: 1.2;
+    letter-spacing: 0.25rem;
+    font-family: var(--inter);
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .el6 .title {
+    font-size: 5vw;
+  }
+
+  .container6 {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 398 / 180;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.127);
+    border-radius: 1.43rem;
+  }
+
+  .el6 {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+  }
+
+  .porfolio {
+    margin-top: 10rem;
+  }
+
+  .container1,
+  .container2,
+  .container3,
+  .container4,
+  .container5,
+  .container6 {
+    border-radius: 12px;
+  }
 }
